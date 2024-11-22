@@ -175,6 +175,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Level 8 Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 9180445340673109435, guid: 4900bebd5facb40408065d9b1eeb59ef, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
