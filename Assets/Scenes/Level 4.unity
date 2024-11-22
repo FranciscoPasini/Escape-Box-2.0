@@ -640,10 +640,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1970198430107257147, guid: 2c7353e47af77704da00d8ac68b60c1a, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 6200000, guid: c644f95c6714d534a8172cfa03260b1d, type: 2}
     - target: {fileID: 2291180645090218970, guid: 2c7353e47af77704da00d8ac68b60c1a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -22.7
@@ -684,29 +680,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2395129320635474043, guid: 2c7353e47af77704da00d8ac68b60c1a, type: 3}
-      propertyPath: m_SortingOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3679361224579635607, guid: 2c7353e47af77704da00d8ac68b60c1a, type: 3}
-      propertyPath: jumpForce
-      value: 22
-      objectReference: {fileID: 0}
     - target: {fileID: 5860405859500539774, guid: 2c7353e47af77704da00d8ac68b60c1a, type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 6038642627568564483, guid: 2c7353e47af77704da00d8ac68b60c1a, type: 3}
-      propertyPath: m_AngularDrag
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 6038642627568564483, guid: 2c7353e47af77704da00d8ac68b60c1a, type: 3}
-      propertyPath: m_Constraints
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 6038642627568564483, guid: 2c7353e47af77704da00d8ac68b60c1a, type: 3}
-      propertyPath: m_GravityScale
-      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6831351663784715133, guid: 2c7353e47af77704da00d8ac68b60c1a, type: 3}
       propertyPath: mementoManager
