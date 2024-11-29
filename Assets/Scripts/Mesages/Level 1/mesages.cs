@@ -5,7 +5,6 @@ using UnityEngine;
 public class mesages : MonoBehaviour
 {
     public SpriteRenderer keys;
-    public SpriteRenderer careful;
     public SpriteRenderer good;
     public SpriteRenderer A;
     public SpriteRenderer D;
@@ -46,9 +45,8 @@ public class mesages : MonoBehaviour
 
     private void SetAllMesagesOff()
     {
-        keys.enabled = false;
         good.enabled = true;
-        careful.enabled = true;
+        keys.enabled = false;
         A.enabled = false;
         D.enabled = false;
         W.enabled = false;
