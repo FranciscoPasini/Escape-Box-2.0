@@ -939,7 +939,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   keys: {fileID: 77531308}
-  careful: {fileID: 0}
+  careful: {fileID: 5090311249131022196, guid: b17abf10767fa1e44b8d428fd0cdc266, type: 3}
   good: {fileID: 477950484}
   A: {fileID: 1286313700}
   D: {fileID: 1747735547}
