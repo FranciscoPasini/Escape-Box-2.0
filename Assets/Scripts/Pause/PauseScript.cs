@@ -38,6 +38,15 @@ public class PauseScript : MonoBehaviour
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
     }
+    
+    public void RestartLevel()
+    {
+        PauseMenu.SetActive(false);
+        Pause = false;
+        Time.timeScale = 1f;
+        Cursor.visible = false;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
 
     public void BackToMenu()
     {
