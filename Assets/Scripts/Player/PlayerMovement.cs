@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -16,10 +17,12 @@ public class PlayerMovement : MonoBehaviour
     private PlayerOBS playerOBS;
 
     private IPlayerState currentState;
+    private SpriteRenderer sprite;
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        sprite = GetComponent<SpriteRenderer>();
     }
 
     private void Start()
@@ -31,8 +34,20 @@ public class PlayerMovement : MonoBehaviour
     private void Update()
     {
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
-
+        SpriteUpdate();
         currentState.UpdateState(this);
+    }
+
+    private void SpriteUpdate()
+    {
+        if (Input.GetKey(KeyCode.A))
+        {
+            sprite.flipX = true;
+        }
+        else if (Input.GetKey(KeyCode.D))
+        {
+            sprite.flipX = false;
+        }
     }
 
     public void SetState(IPlayerState newState)
