@@ -84,6 +84,10 @@ public class SceneManagerButtons : MonoBehaviour
     {
         SceneManager.LoadScene("Level 9");
     }
+    public void Level10()
+    {
+        SceneManager.LoadScene("Level 10");
+    }
 
     //Credits Button
     public void Credits()
