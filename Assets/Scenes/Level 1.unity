@@ -1602,64 +1602,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2395129320635474043, guid: 2c7353e47af77704da00d8ac68b60c1a, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 6bb91224d3341a140abfc22de07f2962, type: 3}
-    - target: {fileID: 2395129320635474043, guid: 2c7353e47af77704da00d8ac68b60c1a, type: 3}
-      propertyPath: m_SortingOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2395129320635474043, guid: 2c7353e47af77704da00d8ac68b60c1a, type: 3}
-      propertyPath: m_WasSpriteAssigned
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3679361224579635607, guid: 2c7353e47af77704da00d8ac68b60c1a, type: 3}
-      propertyPath: jumpForce
-      value: 25
-      objectReference: {fileID: 0}
-    - target: {fileID: 3679361224579635607, guid: 2c7353e47af77704da00d8ac68b60c1a, type: 3}
-      propertyPath: moveSpeed
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 3679361224579635607, guid: 2c7353e47af77704da00d8ac68b60c1a, type: 3}
-      propertyPath: groundLayer.m_Bits
-      value: 8
-      objectReference: {fileID: 0}
     - target: {fileID: 5860405859500539774, guid: 2c7353e47af77704da00d8ac68b60c1a, type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 5860405859500539774, guid: 2c7353e47af77704da00d8ac68b60c1a, type: 3}
-      propertyPath: m_TagString
-      value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 6038642627568564483, guid: 2c7353e47af77704da00d8ac68b60c1a, type: 3}
-      propertyPath: m_AngularDrag
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 6038642627568564483, guid: 2c7353e47af77704da00d8ac68b60c1a, type: 3}
-      propertyPath: m_Constraints
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 6038642627568564483, guid: 2c7353e47af77704da00d8ac68b60c1a, type: 3}
-      propertyPath: m_GravityScale
-      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6831351663784715133, guid: 2c7353e47af77704da00d8ac68b60c1a, type: 3}
       propertyPath: mementoManager
       value: 
       objectReference: {fileID: 945602465}
-    - target: {fileID: 8207090623292962475, guid: 2c7353e47af77704da00d8ac68b60c1a, type: 3}
-      propertyPath: speed
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 8207090623292962475, guid: 2c7353e47af77704da00d8ac68b60c1a, type: 3}
-      propertyPath: jumpForce
-      value: 20
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 5438260131612699638, guid: 2c7353e47af77704da00d8ac68b60c1a, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
