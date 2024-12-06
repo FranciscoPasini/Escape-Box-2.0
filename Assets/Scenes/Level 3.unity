@@ -1972,6 +1972,10 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 1079451568411635055, guid: 9357a2c9cc54f6b4e98ff34facb75941, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: c644f95c6714d534a8172cfa03260b1d, type: 2}
     - target: {fileID: 6514006337771490614, guid: 9357a2c9cc54f6b4e98ff34facb75941, type: 3}
       propertyPath: m_Tiles.Array.size
       value: 532
