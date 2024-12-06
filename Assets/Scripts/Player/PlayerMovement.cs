@@ -16,7 +16,6 @@ public class PlayerMovement : MonoBehaviour
 
     private PlayerOBS playerOBS;
 
-    private IPlayerState currentState;
     private SpriteRenderer sprite;
 
     private void Awake()
@@ -27,7 +26,6 @@ public class PlayerMovement : MonoBehaviour
 
     private void Start()
     {
-        SetState(new IdleState());
         playerOBS = GetComponent<PlayerOBS>();
     }
 
@@ -35,7 +33,16 @@ public class PlayerMovement : MonoBehaviour
     {
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
         SpriteUpdate();
-        currentState.UpdateState(this);
+
+        float moveInput = Input.GetAxisRaw("Horizontal");
+        Vector2 move = new Vector2(moveInput * moveSpeed, rb.velocity.y);
+
+        rb.velocity = move;
+
+        if (Input.GetKeyDown(KeyCode.W) && (isGrounded))
+        {
+            rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+        }
     }
 
     private void SpriteUpdate()
@@ -48,24 +55,6 @@ public class PlayerMovement : MonoBehaviour
         {
             sprite.flipX = false;
         }
-    }
-
-    public void SetState(IPlayerState newState)
-    {
-        currentState?.ExitState(this);
-
-        currentState = newState;
-        currentState.EnterState(this);
-    }
-
-    public void Move(float moveInput)
-    {
-        rb.velocity = new Vector2(moveInput * moveSpeed, rb.velocity.y);
-    }
-
-    public void Jump()
-    {
-        rb.velocity = new Vector2(rb.velocity.x, jumpForce);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

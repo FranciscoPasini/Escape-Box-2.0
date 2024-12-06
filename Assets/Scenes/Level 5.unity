@@ -1440,11 +1440,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4115089808639817809, guid: 079db5cb0c3eb0241a8feb8130e1d609, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 150
+      value: 152.7
       objectReference: {fileID: 0}
     - target: {fileID: 4115089808639817809, guid: 079db5cb0c3eb0241a8feb8130e1d609, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -50
+      value: -77.5
       objectReference: {fileID: 0}
     - target: {fileID: 4777136917197055314, guid: 079db5cb0c3eb0241a8feb8130e1d609, type: 3}
       propertyPath: m_SizeDelta.x
@@ -11584,6 +11584,14 @@ PrefabInstance:
     - target: {fileID: 8611058603227933244, guid: 9357a2c9cc54f6b4e98ff34facb75941, type: 3}
       propertyPath: m_Tiles.Array.data[41].second.m_TileObjectToInstantiateIndex
       value: 65535
+      objectReference: {fileID: 0}
+    - target: {fileID: 9129538285654170710, guid: 9357a2c9cc54f6b4e98ff34facb75941, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9129538285654170710, guid: 9357a2c9cc54f6b4e98ff34facb75941, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
