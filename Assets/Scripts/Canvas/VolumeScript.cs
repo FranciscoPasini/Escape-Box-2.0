@@ -51,13 +51,13 @@ public class VolumeScript : MonoBehaviour
 
     public void SetMusicVolume(float volume)
     {
-        musicSource.volume = Mathf.Clamp(volume, 0.01f, 1f);
+        musicSource.volume = Mathf.Clamp(volume, 0f, 1f);
         PlayerPrefs.SetFloat("MusicVolume", volume);
     }
 
     public void SetFXVolume(float volume)
     {
-        fxSource.volume = Mathf.Clamp(volume, 0.01f, 1f);
+        fxSource.volume = Mathf.Clamp(volume, 0f, 1f);
         PlayerPrefs.SetFloat("FXVolume", volume);
     }
 }

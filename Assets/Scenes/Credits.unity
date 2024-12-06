@@ -331,6 +331,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7286472713273765256, guid: ba67cbb8817262f488199522e39a4652, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7358614271654525981, guid: ba67cbb8817262f488199522e39a4652, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -381,8 +385,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8768298413543362217, guid: ba67cbb8817262f488199522e39a4652, type: 3}
       propertyPath: m_text
-      value: "Cristi\xE1n Gonz\xE1lez\nTom\xE1s Modia\nFrancisco Pasini\nGiusiano
-        Tomas\nPalacios Agustin"
+      value: "Cristi\xE1n Gonz\xE1lez\n\nTom\xE1s Modia\n\nFrancisco Pasini\n\nTom\xE1s
+        Giusiano \n\nPalacios Agustin\n"
       objectReference: {fileID: 0}
     - target: {fileID: 8768298413543362217, guid: ba67cbb8817262f488199522e39a4652, type: 3}
       propertyPath: m_fontSize
@@ -395,6 +399,14 @@ PrefabInstance:
     - target: {fileID: 8768298413543362217, guid: ba67cbb8817262f488199522e39a4652, type: 3}
       propertyPath: m_fontSizeBase
       value: 33
+      objectReference: {fileID: 0}
+    - target: {fileID: 8768298413543362217, guid: ba67cbb8817262f488199522e39a4652, type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 8768298413543362217, guid: ba67cbb8817262f488199522e39a4652, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

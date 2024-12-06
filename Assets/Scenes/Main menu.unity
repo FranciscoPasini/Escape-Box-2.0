@@ -1089,6 +1089,10 @@ PrefabInstance:
       propertyPath: Loop
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3544208185421807976, guid: 2e76846f5cbcd2446a07e5d0ba08c184, type: 3}
+      propertyPath: m_Volume
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6509789012912400537, guid: 2e76846f5cbcd2446a07e5d0ba08c184, type: 3}
       propertyPath: m_Name
       value: VolumeSeting
